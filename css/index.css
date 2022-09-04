@@ -1,0 +1,145 @@
+h1 {
+    color:white;
+    text-align:center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 60px;
+}    
+h2 {
+    color:white;
+    text-align:center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+h3 {
+    color:white;
+    text-align:center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 50px;
+}    
+h4 {
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    font-style:unset;
+    text-decoration: underline; 
+}
+h5 {
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    font-style:unset;
+}
+h6 {
+    color:crimson;
+    text-align: center;
+    font-size: 25px;
+    font-style:unset;
+    text-decoration:underline;
+}
+form {
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    font-style:unset;
+}    
+p {
+    color:white;
+    text-align:center;
+    text-transform: capitalize; 
+    font-size: 20px;
+}         
+span {
+    color:white;
+    text-align:center;
+    text-transform: capitalize; 
+    font-size: 19px;
+    font-style:calc(1,1);
+}    
+.centrovideo {
+    transform:translate(-2px, 5px);
+}    
+.moveright {
+    transform:translate(2px, 100px);
+}
+img {
+    flex-direction:row;
+    padding: 4px;
+}
+body {
+    background: linear-gradient(to left, #485563, #29323c);
+}
+a {
+    color:rgb(161, 158, 158);
+    text-align:center;
+    font-size: 20px;
+    justify-content: center;
+    display:flex;
+    list-style: none;
+    text-decoration: none;
+    line-height: 5.9; 
+    transform:translate(350px, -25px);
+}
+.logo {
+    transform:translate(-1220px,38px);
+}
+.blanco {
+    color:white;
+}    
+.gris {
+    color:gray;     
+}
+.centro {
+    transform:translate(1px, 15px);
+}
+.negro {
+    color:black;
+}    
+ul {
+    color: white;
+    text-align:center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    font-style:calc(1,1);
+    font-size: 20px;  
+}        
+li {
+    text-align:center;
+} 
+header {
+    grid-area:auto }
+/*MIGRÓ A ARCHIVO NORMALIZE.SCSS*/ 
+html {
+    font-size: 62,5%;
+}
+/*MIGRÓ A ARCHIVO NORMALIZE.SCSS*/   
+body {
+    display:block;
+    grid-template-rows:min-content 10fr;
+    min-height: 1000vh; 
+}
+nav {
+    justify-content: center;
+    display:flex;
+    transform:translate(-350px, 1px);
+}  
+a {
+    display:flex;   
+}    
+   
+
+
+
+           
+              
+
+
+
+
+
+
+
+
+
