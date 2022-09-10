@@ -12,6 +12,7 @@ a {
   text-decoration: none;
   line-height: 5.9;
   transform: translate(350px, -25px); }
+
 /*misc*/
 /*normalize*/
 /*ul*/
@@ -23,17 +24,20 @@ ul {
   list-style: none;
   font-style: calc(1,1);
   font-size: 20px; }
+
 /*misc*/
 /*normalize*/
 /*img*/
 img {
   flex-direction: row;
   padding: 4px; }
+
 /*misc*/
 /*normalize*/
 /*body*/
 body {
   background: linear-gradient(to left, #485563, #29323c); }
+
 /*misc*/
 /*normalize*/
 /*body*/
@@ -41,11 +45,13 @@ body {
   display: block;
   grid-template-rows: min-content 10fr;
   min-height: 1000vh; }
+
 /*misc*/
 /*normalize*/
 /*html*/
 html {
   font-size: 62,5%; }
+
 /*misc*/
 /*normalize*/
 /*span*/
@@ -55,11 +61,13 @@ span {
   text-transform: capitalize;
   font-size: 19px;
   font-style: calc(1,1); }
+
 /*misc*/
 /*normalize*/
 /*li*/
 li {
   text-align: center; }
+
 /*misc*/
 /*normalize*/
 /*form*/
@@ -68,6 +76,7 @@ form {
   text-align: center;
   font-size: 30px;
   font-style: unset; }
+
 /*animations scss*/
 /*transformaciones*/
 .centrovideo {
@@ -81,12 +90,14 @@ form {
 
 .centro {
   transform: translate(1px, 15px); }
+
 /*partials*/
 /*partials*/
 /*header scss*/
 /*header*/
 header {
   grid-area: auto; }
+
 /*partials*/
 /*header scss*/
 /* De h1 a h6*/
@@ -129,6 +140,7 @@ h6 {
   font-size: 25px;
   font-style: unset;
   text-decoration: underline; }
+
 /*partials*/
 /*header scss*/
 /* p*/
@@ -137,6 +149,7 @@ p {
   text-align: center;
   text-transform: capitalize;
   font-size: 20px; }
+
 /*partials*/
 /*header scss*/
 /* nav*/
@@ -144,19 +157,23 @@ nav {
   justify-content: center;
   display: flex;
   transform: translate(-350px, 1px); }
+
 /*partials*/
 /*header scss*/
 /*a*/
 a {
   display: flex; }
+
 /*colors scss*/
 /*blanco*/
 .blanco {
   color: white; }
+
 /*colors scss*/
 /*gris*/
 .gris {
   color: gray; }
+
 /*colors scss*/
 /*negro*/
 .negro {
